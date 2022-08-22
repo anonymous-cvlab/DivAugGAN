@@ -158,6 +158,108 @@ We provide our PyTorch implementation of unpaired image-to-image translation bas
 
 <font size=3>  Arts </font> <br><br>
 
+<font size=3>  Cezanne  &rarr; Cezanne  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/cezanne2cezanne-monet-photo-ukiyoe-vangogh/cezanne2cezanne/00220.png" width="800px"/>  <br><br>
+
+<font size=3>  Cezanne  &rarr; Monet  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/cezanne2cezanne-monet-photo-ukiyoe-vangogh/cezanne2monet/00220.png" width="800px"/>  <br><br>
+
+<font size=3>  Cezanne  &rarr; Ukiyoe  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/cezanne2cezanne-monet-photo-ukiyoe-vangogh/cezanne2ukiyoe/00220.png" width="800px"/>  <br><br>
+
+<font size=3>  Cezanne  &rarr; Van Gogh  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/cezanne2cezanne-monet-photo-ukiyoe-vangogh/cezanne2vangogh/00220.png" width="800px"/>  <br><br>
+
+<font size=3>  Cezanne  &rarr; Photo  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/cezanne2cezanne-monet-photo-ukiyoe-vangogh/cezanne2photo/00220.png" width="800px"/>  <br><br>
+
+<font size=3>  Monet  &rarr; Cezanne  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/monet2cezanne-monet-photo-ukiyoe-vangogh/monet2cezanne/00480.png" width="800px"/>  <br><br>
+
+<font size=3>  Monet  &rarr; Monet  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/monet2cezanne-monet-photo-ukiyoe-vangogh/monet2monet/00480.png" width="800px"/>  <br><br>
+
+<font size=3>  Monet  &rarr; Ukiyoe  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/monet2cezanne-monet-photo-ukiyoe-vangogh/monet2ukiyoe/00480.png" width="800px"/>  <br><br>
+
+<font size=3>  Monet  &rarr; Van Gogh  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/monet2cezanne-monet-photo-ukiyoe-vangogh/monet2vangogh/00480.png" width="800px"/>  <br><br>
+
+<font size=3>  Monet  &rarr; Photo  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/monet2cezanne-monet-photo-ukiyoe-vangogh/monet2photo/00480.png" width="800px"/>  <br><br>
+
+
+<font size=3>  Ukiyoe  &rarr; Cezanne  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/ukiyoe2cezanne-monet-photo-ukiyoe-vangogh/ukiyoe2cezanne/01202.png" width="800px"/>  <br><br>
+
+<font size=3>  Ukiyoe  &rarr; Monet  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/ukiyoe2cezanne-monet-photo-ukiyoe-vangogh/ukiyoe2monet/01202.png" width="800px"/>  <br><br>
+
+<font size=3>  Ukiyoe  &rarr; Ukiyoe  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/ukiyoe2cezanne-monet-photo-ukiyoe-vangogh/ukiyoe2ukiyoe/01202.png" width="800px"/>  <br><br>
+
+<font size=3>  Ukiyoe  &rarr; Van Gogh  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/ukiyoe2cezanne-monet-photo-ukiyoe-vangogh/ukiyoe2vangogh/01202.png" width="800px"/>  <br><br>
+
+<font size=3>  Ukiyoe  &rarr; Photo  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/ukiyoe2cezanne-monet-photo-ukiyoe-vangogh/ukiyoe2photo/01202.png" width="800px"/>  <br><br>
+
+
+<font size=3>  Van Gogh  &rarr; Cezanne  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/vangogh2cezanne-monet-photo-ukiyoe-vangogh/vangogh2cezanne/00010.png" width="800px"/>  <br><br>
+
+<font size=3>  Van Gogh  &rarr; Monet  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/vangogh2cezanne-monet-photo-ukiyoe-vangogh/vangogh2monet/00010.png" width="800px"/>  <br><br>
+
+<font size=3>  Van Gogh  &rarr; Ukiyoe  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/vangogh2cezanne-monet-photo-ukiyoe-vangogh/vangogh2ukiyoe/00010.png" width="800px"/>  <br><br>
+
+<font size=3>  Van Gogh  &rarr; Van Gogh  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/vangogh2cezanne-monet-photo-ukiyoe-vangogh/vangogh2vangogh/00010.png" width="800px"/>  <br><br>
+
+<font size=3>  Van Gogh  &rarr; Photo  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/vangogh2cezanne-monet-photo-ukiyoe-vangogh/vangogh2photo/00010.png" width="800px"/>  <br><br>
+
+
+<font size=3>  Photo  &rarr; Cezanne  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/photo2cezanne-monet-photo-ukiyoe-vangogh/photo2cezanne/2014-08-01-22:38:22.png" width="800px"/>  <br><br>
+
+<font size=3>  Photo  &rarr; Monet  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/photo2cezanne-monet-photo-ukiyoe-vangogh/photo2monet/2014-08-01-22:38:22.png" width="800px"/>  <br><br>
+
+<font size=3>  Photo  &rarr; Ukiyoe  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/photo2cezanne-monet-photo-ukiyoe-vangogh/photo2ukiyoe/2014-08-01-22:38:22.png" width="800px"/>  <br><br>
+
+<font size=3>  Photo  &rarr; Van Gogh  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/photo2cezanne-monet-photo-ukiyoe-vangogh/photo2vangogh/2014-08-01-22:38:22.png" width="800px"/>  <br><br>
+
+<font size=3>  Photo  &rarr; Photo  </font> <br><br>
+
+<img src="images/comparison-results/Multidomain-I2I-arts/photo2cezanne-monet-photo-ukiyoe-vangogh/photo2photo/2014-08-01-22:38:22.png" width="800px"/>  <br><br>
 
 <font size=3>  AFHQ </font> <br><br>
 
