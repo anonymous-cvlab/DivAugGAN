@@ -10,8 +10,9 @@ We provide our PyTorch implementation of unpaired image-to-image translation bas
 
 ## <font size=5> Example Results </font>
 
-### <font size=4> Two-domain paired image-to-image translation qualitative comparisons </font>
-<font size=3>  Aeriel  &rarr;  Map  </font> <br>
+### <font size=4> Two-domain paired image-to-image translation   </font>
+<font size=3>  **Aeriel  &rarr;  Map**  </font> <br><br>
+
 <img src="images/comparison-results/PI2I-01-maps/148.png" width="800px"/>  <br><br>
 
 <img src="images/comparison-results/PI2I-01-maps/154.png" width="800px"/>  <br><br>
@@ -20,69 +21,111 @@ We provide our PyTorch implementation of unpaired image-to-image translation bas
 
 <!-- ![Image text](https://github.com/anonymous-gan/DivAugGAN/blob/master/images/cat2dog%26summer2winter.png)  -->
 
+<font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with *vanilla* BicycleGAN (first row), MSGAN (second row), DSGAN (third row), and DivCoBicycleGAN (fourth row) on  **Aeriel &rarr;  Maps**  dataset. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this paired multimodal image-to-image translation. DivAugGAN generates images with superior contents preservation and adequate variation (diverse color and light) with different input latent vectors. </font> <br><br>
 
 ### <font size=4> Two-domain unpaired image-to-image translation qualitative comparisons </font>
 
-<font size=3>  Cat  &rarr;  Dog </font> <br><br>
+<font size=3>  **Cat  &rarr;  Dog**  </font> <br><br>
+
 <img src="images/comparison-results/UI2I-01-cat2dog/cat2dog-1.png" width="800px"/>  <br><br>
 
 <img src="images/comparison-results/UI2I-01-cat2dog/cat2dog-2.png" width="800px"/>  <br><br>
 
+<font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Cat  &rarr;  Dog**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
 
-<font size=3>  Dog  &rarr; Cat  </font> <br><br>
+<font size=3>  **Dog  &rarr; Cat**  </font> <br>
 
 <img src="images/comparison-results/UI2I-02-dog2cat/dog2cat-1.png" width="800px"/>  <br><br>
 
 <img src="images/comparison-results/UI2I-02-dog2cat/dog2cat-2.png" width="800px"/>  <br><br>
 
+<font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Dog  &rarr; Cat**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
 
-<font size=3>  Monet  &rarr; Photo  </font> <br><br>
+<font size=3>  **Monet  &rarr; Photo**  </font> <br><br>
 
 <img src="images/comparison-results/UI2I-03-monet2photo/00030.png" width="800px"/>  <br><br>
 
 <img src="images/comparison-results/UI2I-03-monet2photo/00150.png" width="800px"/>  <br><br>
 
+<font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Monet  &rarr; Photo**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
 
-<font size=3>  Photo  &rarr; Monet  </font> <br><br>
-
-<img src="images/comparison-results/UI2I-04-photo2monet/2014-08-03-09:47:19.png" width="800px"/>  <br><br>
-
-<img src="images/comparison-results/UI2I-04-photo2monet/2014-08-06-19:34:34.png" width="800px"/>  <br><br>
-
-
-<font size=3>  Photo  &rarr; Monet  </font> <br><br>
+<font size=3>  **Photo  &rarr; Monet**  </font> <br><br>
 
 <img src="images/comparison-results/UI2I-04-photo2monet/2014-08-03-09:47:19.png" width="800px"/>  <br><br>
 
 <img src="images/comparison-results/UI2I-04-photo2monet/2014-08-06-19:34:34.png" width="800px"/>  <br><br>
 
+<font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Photo  &rarr; Monet**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
 
-<font size=3>  Photo  &rarr; Portrait  </font> <br><br>
+<font size=3>  **Photo  &rarr; Portrait**  </font> <br><br>
 
 <img src="images/comparison-results/UI2I-05-photo2portrait/photo2portrait-1.png" width="800px"/>  <br><br>
 
 <img src="images/comparison-results/UI2I-05-photo2portrait/photo2portrait-2.png" width="800px"/>  <br><br>
 
+<font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Photo  &rarr; Portrait**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
 
-<font size=3>  Portrait  &rarr; Photo  </font> <br><br>
+<font size=3>  **Portrait  &rarr; Photo**  </font> <br><br>
 
 <img src="images/comparison-results/UI2I-06-portrait2photo/portrait2photo-1.png" width="800px"/>  <br><br>
 
 <img src="images/comparison-results/UI2I-06-portrait2photo/portrait2photo-2.png" width="800px"/>  <br><br>
 
-<font size=3>  Summer  &rarr; Winter  </font> <br><br>
+<font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Portrait  &rarr; Photo**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
+
+<font size=4> Quantitative comparisons of DivAugGAN with DRIT, MSGAN, DSGAN, and DivCo on **Portrait  &rarr; Photo**. <br> 
+
+| Methods   | FID &darr; | LPIPS &uarr; |  Precision &uarr;  |  Recall &uarr; |   Density &uarr; | Coverage &uarr; |
+|-----------|:----------:|--------------|:------------------:|:--------------:|:----------------:|:---------------:|
+| DRIT      |   59.06    |    0.448     |       0.913        |     0.204      |       1.791      |      0.819      |
+| MSGAN     |   49.43    |    0.581     |       0.945        |     0.204      |       1.243      |      0.856      |
+| DSGAN     |   45.32    |    0.594     |       0.900        |     0.260      |       1.748      |      0.818      |
+| DivCo     |   67.71    |    0.237     |       0.796        |     0.093      |       0.940      |      0.564      |
+| DivAugGAN |   54.96    |    0.403     |       0.796        |     0.253      |       0.952      |      0.694      |
+
+ 
+
+<font size=3>  **Summer  &rarr; Winter**  </font> <br><br>
 
 <img src="images/comparison-results/UI2I-07-summer2winter/summer2winter-1.png" width="800px"/>  <br><br>
 
 <img src="images/comparison-results/UI2I-07-summer2winter/summer2winter-2.png" width="800px"/>  <br><br>
 
-<font size=3>  Winter  &rarr; Summer  </font> <br><br>
+<font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Summer  &rarr; Winter**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
+
+
+<font size=4> Quantitative comparisons of DivAugGAN with DRIT, MSGAN, DSGAN, and DivCo on **Summer  &rarr; Winter**. <br> 
+
+| Methods   | FID &darr; | LPIPS &uarr; |  Precision &uarr;  |  Recall &uarr; |   Density &uarr; | Coverage &uarr; |
+|-----------|:----------:|--------------|:------------------:|:--------------:|:----------------:|:---------------:|
+| DRIT      |   52.57    |    0.117     |       0.761        |     0.025      |       1.008      |      0.865      |
+| MSGAN     |   47.78    |    0.231     |       0.786        |     0.049      |       1.001      |      0.905      |
+| DSGAN     |   48.89    |    0.128     |       0.775        |     0.007      |       1.028      |      0.899      |
+| DivCo     |   50.82    |    0.097     |       0.751        |     0.001      |       0.948      |      0.843      |
+| DivAugGAN |   48.87    |    0.189     |       0.754        |     0.036      |       1.044      |      0.931      |
+ 
+
+<font size=3>  **Winter  &rarr; Summer**  </font> <br><br>
 
 <img src="images/comparison-results/UI2I-08-winter2summer/winter2summer-1.png" width="800px"/>  <br><br>
 
 <img src="images/comparison-results/UI2I-08-winter2summer/winter2summer-2.png" width="800px"/>  <br><br>
 
+<font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Winter  &rarr; Summer**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
 
+
+<font size=4> Quantitative comparisons of DivAugGAN with DRIT, MSGAN, DSGAN, and DivCo on **Winter  &rarr; Summer**. <br> 
+
+| Methods   | FID &darr; | LPIPS &uarr; |  Precision &uarr;  |  Recall &uarr; |   Density &uarr; | Coverage &uarr; |
+|-----------|:----------:|--------------|:------------------:|:--------------:|:----------------:|:---------------:|
+| DRIT      |   53.77    |    0.062     |       0.751        |     0.006      |       0.977      |      0.717      |
+| MSGAN     |   41.02    |    0.217     |       0.788        |     0.063      |       0.910      |      0.828      |
+| DSGAN     |   44.81    |    0.144     |       0.783        |     0.020      |       0.989      |      0.821      |
+| DivCo     |   47.58    |    0.125     |       0.755        |     0.016      |       0.782      |      0.757      |
+| DivAugGAN |   42.33    |    0.179     |       0.749        |     0.039      |       0.925      |      0.849      |
+ 
+
+ 
 
 ### <font size=4>  Multi-domain unpaired image-to-image translation qualitative comparisons </font>
 <!--  ![Image text](https://github.com/anonymous-gan/DivAugGAN/blob/master/images/afhq-transfer.png)  -->
