@@ -6,7 +6,7 @@
 
 <br><br><br>
 
-We provide our PyTorch implementation of unpaired image-to-image translation based on
+We provide our PyTorch implementation of DivAugGAN for multimodal image-to-image translation. DivAugGAN functions as a regularizer to simultaneously maximize the distinction of the generating samples and maintain the relative variation consistency in the translation process as well.　<br>　
 
 ## <font size=5> Example Results </font>
 
@@ -49,6 +49,18 @@ We provide our PyTorch implementation of unpaired image-to-image translation bas
 
 <font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Monet  &rarr; Photo**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
 
+<font size=4> Quantitative comparisons of DivAugGAN with DRIT, MSGAN, DSGAN, and DivCo on **Monet  &rarr; Photo**. <br> 
+
+| Methods   | FID &darr; | LPIPS &uarr; |  Precision &uarr;  |  Recall &uarr; |   Density &uarr; | Coverage &uarr; |
+|-----------|:----------:|--------------|:------------------:|:--------------:|:----------------:|:---------------:|
+| DRIT      |   78.73    |    0.197     |       0.664        |     0.028      |       0.555      |      0.162      |
+| MSGAN     |   **68.21**    |    **0.280**     |       <u>0.712</u>        |     **0.062**      |       **0.754**      |      **0.255**      |
+| DSGAN     |   79.45    |    0.182     |       0.576        |     0.025      |       0.429      |      0.145      |
+| DivCo     |   72.44    |    0.244     |       **0.726**        |     0.029      |       <u>0.673</u>      |      <u>0.233<u>      |
+| DivAugGAN |   <u>70.51</u>    |    <u>0.236</u>     |       0.690        |     <u>0.044</u>      |       0.566      |      0.213      |
+
+
+
 <font size=3>  **Photo  &rarr; Monet**  </font> <br><br>
 
 <img src="images/comparison-results/UI2I-04-photo2monet/2014-08-03-09:47:19.png" width="800px"/>  <br><br>
@@ -57,7 +69,20 @@ We provide our PyTorch implementation of unpaired image-to-image translation bas
 
 <font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Photo  &rarr; Monet**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
 
-<font size=3>  **Photo  &rarr; Portrait**  </font> <br><br>
+
+<font size=4> Quantitative comparisons of DivAugGAN with DRIT, MSGAN, DSGAN, and DivCo on **Photo  &rarr; Monet**. <br> 
+
+| Methods   | FID &darr; | LPIPS &uarr; |  Precision &uarr;  |  Recall &uarr; |   Density &uarr; | Coverage &uarr; |
+|-----------|:----------:|--------------|:------------------:|:--------------:|:----------------:|:---------------:|
+| DRIT      |   **51.98**    |    0.193     |       **0.623**        |     0.063      |       **0.482**      |      0.854      |
+| MSGAN     |   <u>52.16</u>    |    **0.356**     |       <u>0.599</u>        |     **0.209**      |       <u>0.463</u>      |      **0.891**      |
+| DSGAN     |   55.98    |    <u>0.321</u>     |       0.596        |     0.142      |       0.456      |      </u>0.857<u>      |
+| DivCo     |   55.31    |    0.303     |       0.522        |     0.152      |       0.331      |      0.809      |
+| DivAugGAN |   55.58    |    0.306     |       0.548        |     <u>0.157</u>      |       0.413      |      0.820      |
+ 
+ 
+
+<font size=3>  **Photograph  &rarr; Portrait**  </font> <br><br>
 
 <img src="images/comparison-results/UI2I-05-photo2portrait/photo2portrait-1.png" width="800px"/>  <br><br>
 
@@ -65,7 +90,19 @@ We provide our PyTorch implementation of unpaired image-to-image translation bas
 
 <font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Photo  &rarr; Portrait**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
 
-<font size=3>  **Portrait  &rarr; Photo**  </font> <br><br>
+<font size=4> Quantitative comparisons of DivAugGAN with DRIT, MSGAN, DSGAN, and DivCo on **Photograph  &rarr; Portrait**. <br> 
+
+| Methods   | FID &darr; | LPIPS &uarr; |  Precision &uarr;  |  Recall &uarr; |   Density &uarr; | Coverage &uarr; |
+|-----------|:----------:|--------------|:------------------:|:--------------:|:----------------:|:---------------:|
+| DRIT      |   **49.21**    |    0.401     |       0.761        |     0.174      |       <u>0.938</u>      |      <u>0.295</u>      |
+| MSGAN     |   50.43    |    **0.496**     |       0.768        |     **0.216**      |       0.934      |      **0.302**      |
+| DSGAN     |   <u>49.86</u>    |    <u>0.474</u>     |       0.768        |     **0.216**      |       0.906      |      0.282      |
+| DivCo     |   52.88    |    0.270     |       <u>0.771</u>        |     0.111      |       **0.950**      |      0.273      |
+| DivAugGAN |   57.21    |    0.310     |       **0.772**        |     0.182      |       0.754      |      0.225      |
+ 
+ 
+
+<font size=3>  **Portrait  &rarr; Photograph**  </font> <br><br>
 
 <img src="images/comparison-results/UI2I-06-portrait2photo/portrait2photo-1.png" width="800px"/>  <br><br>
 
@@ -73,15 +110,15 @@ We provide our PyTorch implementation of unpaired image-to-image translation bas
 
 <font size=4> Qualitative diversity comparisons of DivAugGAN (fifth row) with DRIT (first row), MSGAN (second row), DSGAN (third row), and DivCo (fourth row) on **Portrait  &rarr; Photo**. The first column shows the input images and the remaining 10 columns presents the generated multimodal images with 10 different input latent vectors for this unpaired multimodal image-toimage translation. DivAugGAN generates images with promising content preservation performance (cloud shape) and adequate variation (diverse color and light) for the different input latent vectors. </font>  <br><br>
 
-<font size=4> Quantitative comparisons of DivAugGAN with DRIT, MSGAN, DSGAN, and DivCo on **Portrait  &rarr; Photo**. <br> 
+<font size=4> Quantitative comparisons of DivAugGAN with DRIT, MSGAN, DSGAN, and DivCo on **Portrait  &rarr; Photograph**. <br> 
 
 | Methods   | FID &darr; | LPIPS &uarr; |  Precision &uarr;  |  Recall &uarr; |   Density &uarr; | Coverage &uarr; |
 |-----------|:----------:|--------------|:------------------:|:--------------:|:----------------:|:---------------:|
-| DRIT      |   59.06    |    0.448     |       0.913        |     0.204      |       1.791      |      0.819      |
-| MSGAN     |   49.43    |    0.581     |       0.945        |     0.204      |       1.243      |      0.856      |
-| DSGAN     |   45.32    |    0.594     |       0.900        |     0.260      |       1.748      |      0.818      |
+| DRIT      |   59.06    |    0.448     |       <u>0.913</u>        |     0.204      |       **1.791**      |      <u>0.819</u>      |
+| MSGAN     |   **49.43**    |    <u>0.581</u>     |       **0.945**        |     0.204      |       1.243      |      **0.856**      |
+| DSGAN     |   <u>45.32</u>    |    **0.594**     |       0.900        |     **0.260**      |       <u>1.748</u>      |      0.818      |
 | DivCo     |   67.71    |    0.237     |       0.796        |     0.093      |       0.940      |      0.564      |
-| DivAugGAN |   54.96    |    0.403     |       0.796        |     0.253      |       0.952      |      0.694      |
+| DivAugGAN |   54.96    |    0.403     |       0.796        |     <u>0.253</u>      |       0.952      |      0.694      |
 
  
 
